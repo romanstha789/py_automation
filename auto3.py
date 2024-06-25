@@ -5,10 +5,15 @@ import time
 pyautogui.moveTo(1880,1050,duration=1)
 pyautogui.click()
 
+# To open minimize
+pyautogui.moveTo(1780,10,duration=1)
+pyautogui.click()
+
 pyautogui.hotkey('ctrl','s')
 pyautogui.press('enter')
 pyautogui.write('hello')
 
+#To open youtube and gmail
 pyautogui.press('win')
 time.sleep(0.1)
 pyautogui.write('edge',interval=0.05)
@@ -25,5 +30,3 @@ time.sleep(2)
 pyautogui.press('enter')
 
 pyautogui.alert('All tabs opened')
-
-
