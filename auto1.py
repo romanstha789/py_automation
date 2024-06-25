@@ -12,5 +12,3 @@ for name in gname:
     time.sleep(1)
     pyautogui.write(greeting)
     pyautogui.press("enter")
-
-
